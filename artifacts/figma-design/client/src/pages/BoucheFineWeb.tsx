@@ -112,6 +112,9 @@ export const BoucheFineWeb = (): JSX.Element => {
   >
 <Button
   type="button"
+  onClick={() => {
+    window.location.href = "mailto:contact@boucheefine.com";
+  }}
   className="
     h-[44px]
     rounded-full
